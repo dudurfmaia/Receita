@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+* {
+  font-family: "Alice", sans-serif;
+  font-weight: 400;
+  
+}
+
+body {
+  background-image: url(./assets/bg-image.png);
+  background-color: #573824;
+  background-size: cover;
+  height: 100%;
+  max-height: 1588px;
+}
+#container {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  background-color: #F0E8C2;
+  display: flex;
+  justify-content: center;
+  margin: 48px auto auto auto;
+  flex-direction: column;
+  border-radius: 24px;
+}
+#container img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  box-sizing: border-box;
+  padding: 24px 24px 0 24px;
+  margin: auto auto 24px auto;
+  border-radius: 48px;
+}
+#main {
+padding: 24px;
+
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+}
+h1 {
+  margin-bottom: 0 ;
+  font-size: 40px;
+  line-height: 140%;
+  color: #291B1A;
+  text-transform: italic ;
+  
+}
+.about p {
+font-size: 16px;
+line-height: 150%;
+color: #573A37;
+margin-top: 0;
+}
+h2 {
+  color: #291B1A;
+  font-size: 24px;
+  line-height: 150%;
+  
+}
+ul li {
+  font-size: 16px;
+  line-height: 150%;
+  color: #573A37;
+  
+}
+h3 {
+  color: #291B1A;
+  font-size: 24px;
+  line-height: 150%;
+}
+#preparo p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #573A37;
+}
+
+@media (max-width: 450px) {
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+h2, h3 {
+  font-size: 20px;
+}
+}
+
+ion-icon {
+  vertical-align: middle;
+}
+footer {
+  margin: 24px 0 48px 0;
+  font-weight: 400;
+  color: #F0E8C2;
+  line-height: 150%;
+  text-align: center;
+}
